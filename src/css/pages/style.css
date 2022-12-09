@@ -1,0 +1,28 @@
+@import "/src/css/base/main.css";
+@import "/src/css/layout/header.css";
+@import "/src/css/layout/footer.css";
+
+
+
+
+img {
+    display: flex;
+      width: 100%;
+    }
+  .carrousel_parent-ecrans {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+  
+    }
+  
+  .carrousel_ecran {
+    flex: none;
+    width: 100%;
+    scroll-snap-align: start;
+    }
+  .carrousel_ecran figure {
+    margin: 0%; 
+    }
