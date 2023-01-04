@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Reactive";
+    src: url("/src/fonts/Reactive/Reactive.otf") format("opentype")
+}
+
+body {
+    font-size: 23px;
+    font-family: "Reactive";
+}
