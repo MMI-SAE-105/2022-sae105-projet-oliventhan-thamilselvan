@@ -3,7 +3,18 @@
     src: url("/src/fonts/Reactive/Reactive.otf") format("opentype")
 }
 
+html {
+font-size: 62.5%;
+}
+
 body {
-    font-size: 23px;
+    font-size: 1.6rem; /* équivaut à 16 px*/
     font-family: "Reactive";
+    line-height: 1.6;
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #9A0000 ;
 }
