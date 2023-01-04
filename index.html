@@ -1,89 +1,29 @@
 <!DOCTYPE html>
-<html lang="en" x-data="{menuIsOpen:false}": class="{noscroll:menuIsOpen,}">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="src/css/pages/style.css">
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <script defer src="https://unpkg.com/alpinejs%22%3E"></script>
-    <style>
-        .menu {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            background: #464646;
-            display: grid;
-            place-content: center;
-        }
-        .header_menuBtn {
-            position: relative;
-            z-index: 10;
-        }
-          .noscroll,
-          .noscroll body {
-            overflow: hidden;
-        }
-    </style>
+    <title>Génocide caché</title>
+
+    <link rel="stylesheet" href="src/css/vendors/normalize.css">
+    <link rel="stylesheet" href="src/fonts/typographie.css">
+    <link rel="stylesheet" href="src/css/components/menu.css">
 </head>
 <body>
     <header>
-        <a href="./index.html"><img src="/public/icon/logo original111 2.webp" alt="#"></a>
-        <img src="/public/icon/GÉNOCIDE CACHÉ.webp" alt="">
-        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class = "header_menu"><img src="/public/icon/menu-open.webp" alt="#"></button>
-        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+        <h1><a href="">Génocide caché</a></h1>
+        <nav>
             <ul>
-                <a href="./index.html"><img src="/icon/cross.webp" alt="#"></a>
+                <li>Home</li>
+                <li>Glossary</li>
+                <li>About</li>
+                <li>Contact</li>
             </ul>
-            <ul>
-                <h1>Menu</h1>
-            </ul>
-            <ul>
-                <li><a href="./page_lieu.html">CEYLON, THE PEARL OF THE INDIAN OCEAN</a></li>
-                <li><a href="./page_espoir.html">A RAY OF HOPE</a></li>
-                <li><a href="./page_regret.html">THE MULLIVAIKKAL MASSACRE</a></li>
-                <li><a href="./page_musique.html">SONG : PUBLIC ENEMY - FIGHT THE POWER</a></li>
-                <li><a href="./page_film.html">MOVIE : METHAGU (2021)</a></li>
-                <li><a href="./page_livre.html">BOOK : CONFLIT ET RAPPORT SOCIAUX EN ASIE DU SUD</a></li>
-                <li><a href="./autres_projets.html">Autres Projets</a></li>
-            </ul>
-            <ul>
-                <li><a href="./glossaire.html">Glossaire</a></li>
-                <li><a href="./à_propos.html">À propos</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <ul>
-                <li><a href="./index.html"><img src="/icon/Flag_of_France_(1794–1815,_1830–1974,_2020–present) 1.webp" alt="#"></a></li>
-                <li><a href="./indexGB.html"><img src="/icon/Flag_of_the_United_Kingdom 1.webp" alt="#"></a></li>
-            </ul>
-        </nav>         
+        </nav>
     </header>
-    <div class="carrousel" x-data="{}">
-        <div class="carrousel_parent-ecrans">
-            <div id="ecran-1" class="carrousel_ecran">
-                <figure>
-                    <img src="/public/img/c1.webp" alt="image ecran 1">
-                </figure>
-            </div>
-            <div id="ecran-2" class="carrousel_ecran">
-                <figure>
-                    <img src="/public/img/c4.webp" alt="image ecran 2">
-                </figure>
-            </div>
-            <div id="ecran-3" class="carrousel_ecran">
-                <figure>
-                    <img src="/public/img/c6.webp" alt="image ecran 3">
-                </figure>
-            </div>
-        </div>
-    </div>
-            
-
-
-    <h2>Livre : Conflit et rapports sociaux en Asie du Sud</h2>   
+    <main>
+        <h2>Livre : Conflit et rapports sociaux en Asie du Sud</h2>   
     <img src="public/img/Rectangle 6ff.webp" alt="#">
         <p>
             Ce livre rassemble des spécialistes des sciences sociales qui abordent les relations sociales en Asie du Sud à travers la forme de conflit.
@@ -106,6 +46,6 @@
         Cette chanson est un succès international parce que tous ceux qui ont été victimes de discrimination pourraient se relativiser avec cette chanson.
     </p> 
         <a href="./page_musique.html"><button>En Savoir Plus</button></a>
-            
-    
-        
+    </main>
+</body>
+</html>
