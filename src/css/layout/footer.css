@@ -1,0 +1,9 @@
+.main-foot {
+    background-color: #464646;
+}
+
+.logo-footer {
+    transform: scale(20%);
+    position: absolute;
+    top: 160%;
+}
