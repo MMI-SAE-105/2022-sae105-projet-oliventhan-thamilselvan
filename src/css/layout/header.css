@@ -1,4 +1,7 @@
 .main-head {
+    width: 145%;
+    height: 60px;
+
     background-color: #A1A1A1;
 }
 
@@ -11,9 +14,6 @@
     left: 18px;
 }
 
-.titre {
-    
-}
 
 .logo_mmi {
     transform: scale(70%);
