@@ -9,26 +9,28 @@ body{
 
 .article5_accueil {
   transform: scale(90%);
+  padding-top: 70px;
 }
 
 .article6_accueil {
   transform: scale(90%);
+  padding-top: 70px;
 }
 
 .rectangle_noir1 {
   transform: scale(80%);
   position: absolute;
-  top: 78%;
+  top: 82%;
 }
 
 .rectangle_noir2 {
   transform: scale(80%);
   position: absolute;
-  top: 119.4%;
+  top: 132.4%;
 }
 
 .rectangle_noir3 {
   transform: scale(80%);
   position: absolute;
-  top: 160.5%;
+  top: 182%;
 }
