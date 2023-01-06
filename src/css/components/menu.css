@@ -3,8 +3,8 @@
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 30px;
-    right: 30px;
+    top: 8px;
+    right: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,3 +101,8 @@
 .menu-open .menu li:nth-child(n+2) { transition-delay: .35s; }
 .menu-open .menu li:nth-child(n+3) { transition-delay: .4s; }
 .menu-open .menu li:nth-child(n+4) { transition-delay: .45s; }
+
+.logo_mmi {
+    transform: scale(70%);
+
+}

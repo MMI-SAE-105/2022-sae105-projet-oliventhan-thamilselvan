@@ -1,21 +1,32 @@
 .main-head {
-    width: 145%;
-    height: 60px;
-
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     background-color: #A1A1A1;
 }
 
 
 .logo_site {
-    width: 68.6px;
-    height: 54px;
+    width: 61.2px;
+    height: 48px;
     position: absolute;
-    top: 18px;
-    left: 18px;
+    top: -4px;
+    left: 0px;
 }
 
-
-.logo_mmi {
-    transform: scale(70%);
-
+.titre_site {
+    position: absolute;
+    top: -4px;
+    left: 75px;
 }
+
+.drapeau-traduction_anglais {
+    width: 32.5px;
+    height: 21px;
+    position: absolute;
+    top: 12px;
+    right: 62px;
+}
+
