@@ -7,13 +7,18 @@
     <title>Génocide caché</title>
 
     <link rel="stylesheet" href="src/css/vendors/normalize.css">
+    <link rel="stylesheet" href="src/css/pages/style.css">
+    <link rel="stylesheet" href="src/css/layout/header.css">
+    <link rel="stylesheet" href="src/css/components/carrousel.css">
 
     <link rel="stylesheet" href="src/fonts/typography.css">
     <link rel="stylesheet" href="src/css/components/menu.css">
 </head>
 <body class="">
-    <header>
-        <h1><a href="">Génocide caché</a></h1>
+    <header class="main-head" > 
+        <a href="./index.html">
+            <img class="logo_site"src="/public/icon/logo original111 2.webp" alt="">
+        <h1><a class="titre"href="">Génocide caché</a></h1>
         <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
             <div class="nav-toggle-bar"></div>
         </div>
@@ -23,11 +28,33 @@
                 <li>Glossary</li>
                 <li>About</li>
                 <li>Contact</li>
+                <li><img class="logo_mmi"src="/public/icon/MMI_dut_white_png 2.webp" alt=""></li>
             </ul>
         </nav>
     </header>
     <main>
-        
+        <div class="carrousel" x-data="{}">
+            <div class="carrousel_parent-ecrans">
+                <div id="ecran-1" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/c4.webp" alt="image ecran 1">
+                        <figcaption>Ecran 1</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-2" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/c1.webp" alt="image ecran 2">
+                        <figcaption>Ecran 2</figcaption>
+                    </figure>
+                </div>
+                <div id="ecran-3" class="carrousel_ecran">
+                    <figure>
+                        <img src="/public/img/c6.webp" alt="image ecran 3">
+                        <figcaption>Ecran 3</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>

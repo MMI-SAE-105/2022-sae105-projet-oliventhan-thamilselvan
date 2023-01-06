@@ -1,0 +1,21 @@
+.main-head {
+    background-color: #A1A1A1;
+}
+
+
+.logo_site {
+    width: 68.6px;
+    height: 54px;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+
+.titre {
+    
+}
+
+.logo_mmi {
+    transform: scale(70%);
+
+}
