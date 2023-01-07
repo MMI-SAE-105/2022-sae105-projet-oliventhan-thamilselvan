@@ -80,3 +80,35 @@
     margin-right: 25px;
     text-align: center;
 }
+
+.footer_description2 {
+    color: white;
+    font-family: "Open Sans";
+    font-size: 12px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+  }
+
+  .footer_link2 {
+    color: white;
+  }
+
+  .footer_description3 {
+    color: white;
+    font-family: "Open Sans";
+    font-size: 12px;
+    margin-left: 45px;
+    margin-right: 25px;
+    text-align: center;
+  }
+
+  .footer_link3 {
+    color: white;
+  }
+
+  .logo_footer {
+    max-width: 20%;
+    margin-left: 160px;
+    padding-bottom: 10px
+  }
