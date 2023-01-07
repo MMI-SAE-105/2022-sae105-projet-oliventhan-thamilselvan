@@ -9,7 +9,7 @@
 }
 
 .footer {
-    background-color: var(--dark--blue--footer);
+    background-color: #464646;
     top: 0;
     left: 0;
     width: 100%;
@@ -24,23 +24,20 @@
   }
   
   .footer__title {
-    text-transform: uppercase;
-    color: var(--white-text);
-    font-family: "Open Sans";
-    text-align: center;
+    transform: scale(30%);
   }
 
   .footer__menu {
     text-transform : uppercase;
     color: var(--white--text);
     font-family: "Open Sans";
-    font-weight: 500;
+    font-size: 12px;
   }
 
   .footer__description {
     color: var(--grey--text);
     font-family: "Open Sans";
-    font-weight: 300;
+    font-size: 12px;
   }
 
   .footer__link {
@@ -48,10 +45,8 @@
   }
 
   .footer__logo {
-    max-width: 65%;
-    display: block;
-    margin: auto;
-    padding-top: 1rem;
+    max-width: 15%;
+    padding-top: -1rem;
   }
 
 .footer__menu-item {
