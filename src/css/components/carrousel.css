@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+
 img {
     display: flex;
       width: 100%;
@@ -15,9 +18,22 @@ img {
     flex: none;
     width: 100%;
     scroll-snap-align: start;
+    background-color: #464646;
     }
   .carrousel_ecran figure {
     margin: 0%; 
     }
 
+    .text_carrousel {
+        margin-top: 5px;
+        margin-left: 25px;
     
+    }
+    
+    .description_carrousel {
+        font-family: "Open Sans";
+        font-size: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 4px;
+    }

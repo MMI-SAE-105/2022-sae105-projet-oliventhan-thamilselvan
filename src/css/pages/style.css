@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
 body{
     background-color: #535353;
     color: white;
@@ -21,17 +23,76 @@ body{
 .rectangle_noir1 {
   transform: scale(80%);
   position: absolute;
-  top: 82%;
+  top: 92%;
 }
 
 .rectangle_noir2 {
   transform: scale(80%);
   position: absolute;
-  top: 132.4%;
+  top: 142.4%;
 }
 
 .rectangle_noir3 {
   transform: scale(80%);
   position: absolute;
-  top: 182%;
+  top: 192%;
+}
+
+.titre_acceuil_1 {
+  position: absolute;
+  font-size: 18px;
+  margin-left: 50px;
+  margin-right: 50px;
+  top: 92.8%;
+  line-height: 20px;
+  text-align: center;
+}
+
+.titre_acceuil_2 {
+  position: absolute;
+  font-size: 18px;
+  margin-left: 100px;
+  margin-right: 50px;
+  top: 143.6%;
+  text-align: center;
+}
+
+.titre_acceuil_3 {
+  position: absolute;
+  font-size: 18px;
+  margin-left: 60px;
+  margin-right: 60px;
+  top: 193%;
+  line-height: 20px;
+  text-align: center;
+}
+
+.description_acceuil_1 {
+  position: absolute;
+  font-family: "Open Sans";
+  font-size: 12px;
+  margin-left: 50px;
+  margin-right: 45px;
+  top: 98.5%;
+  line-height: 15px;
+}
+
+.description_acceuil_2 {
+  position: absolute;
+  font-family: "Open Sans";
+  font-size: 12px;
+  margin-left: 50px;
+  margin-right: 45px;
+  line-height: 15px;
+  top: 148.9%;
+}
+
+.description_acceuil_3 {
+  position: absolute;
+  font-family: "Open Sans";
+  font-size: 12px;
+  margin-left: 50px;
+  margin-right: 45px;
+  line-height: 15px;
+  top: 198.5%;
 }
