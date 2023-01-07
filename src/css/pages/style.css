@@ -71,28 +71,31 @@ body{
   position: absolute;
   font-family: "Open Sans";
   font-size: 12px;
-  margin-left: 50px;
+  margin-left: 45px;
   margin-right: 45px;
   top: 98.5%;
   line-height: 15px;
+  text-align: center;
 }
 
 .description_acceuil_2 {
   position: absolute;
   font-family: "Open Sans";
   font-size: 12px;
-  margin-left: 50px;
+  margin-left: 45px;
   margin-right: 45px;
   line-height: 15px;
   top: 148.9%;
+  text-align: center;
 }
 
 .description_acceuil_3 {
   position: absolute;
   font-family: "Open Sans";
   font-size: 12px;
-  margin-left: 50px;
+  margin-left: 45px;
   margin-right: 45px;
   line-height: 15px;
   top: 198.5%;
+  text-align: center;
 }
