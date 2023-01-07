@@ -112,3 +112,19 @@
     margin-left: 160px;
     padding-bottom: 10px
   }
+
+  .footer_down {
+    display: flex;
+  }
+
+  .logo_social1 {
+    margin-left: 5px;
+    transform: scale(50%);
+    width: 90px;
+  }
+
+  .logo_social2 {
+    margin-left: 125px;
+    transform: scale(60%);
+    width: 105px;
+  }
