@@ -43,6 +43,26 @@ body{
   text-align: center;
 }
 
+.titre_acceuil_0 {
+  font-size: 18px;
+  margin-left: 60px;
+  margin-right: 60px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.description_acceuil_0 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 15px;
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+
 .description_acceuil_1 {
   font-family: "Open Sans";
   font-weight: 700;
@@ -102,4 +122,15 @@ body{
   margin-right: 50px;
   line-height: 20px;
   text-align: center;
+}
+
+.description_acceuil_0 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 18px;
+  text-align: center;
+  padding-bottom: 20px;
 }
