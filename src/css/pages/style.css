@@ -53,3 +53,10 @@ body{
     margin-left: 22px;
     margin-right: 22px;
 }
+
+.titre_about {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: black;
+    margin-left: 51px;
+}
