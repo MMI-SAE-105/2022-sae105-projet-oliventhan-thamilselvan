@@ -18,8 +18,9 @@
 
 .titre_site {
     position: absolute;
+    scale: 80%;
     top: -1px;
-    left: 58px;
+    left: 32px;
     font-size: 82.5%;
 }
 
